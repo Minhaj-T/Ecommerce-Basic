@@ -1,0 +1,60 @@
+{{!-- <section" >
+    <div class="row">
+     
+     <div class="container">
+
+      <div class="col-md-6">
+
+          <h2>Add users</h2>
+  
+    <form  action="/admin/add-users" enctype="multipart/form-data" method="POST">
+        <div class="container">
+          <label for="name"><b>Name</b></label><br>
+          <input type="text" placeholder="Enter name" name="fname" ><br>
+
+          <label for="title"><b>Email</b></label><br>
+          <input type="text" placeholder="Enter title" name="fmail" ><br><br>
+
+          
+<label for="title"><b>Password</b></label><br>
+          <input type="password" placeholder="Enter title" name="fpassword" ><br><br>
+          <button type="submit">submit</button><br><br>
+        </div>
+    </form> 
+
+   
+     </div>
+
+
+    </div>
+    </div>
+</section> --}}
+
+
+<section>
+<div class="row">
+    <div class="col-md-6 m-auto">
+        <div class="container mt-5 pl-5">
+            <h2 class="text-center">Add New  Users</h2>
+            <form action="/admin/add-users" method="post">
+                 <div class="form-group">
+                    <label for=""> <b>Name</b></label>
+                    <input type="text" class="form-control" name="fname" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="title"><b>Email</b></label><br>
+                   <input type="text" placeholder="Enter title" class="form-control" name="fmail" >
+                </div>
+
+                <div class="form-group">
+                    <label for=""> <b> Password</b> </label>
+                    <input type="password" class="form-control" name="fpassword" placeholder="Password">
+                </div>
+                <button type="submit" class="btn btn-primary float-right">Signup</button>
+            </form>
+        </div>
+    </div>
+</div>
+</section>
+
+
